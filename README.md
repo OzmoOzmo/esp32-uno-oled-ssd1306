@@ -1,5 +1,21 @@
 [![Build Status](https://github.com/ThingPulse/esp8266-oled-ssd1306/actions/workflows/main.yml/badge.svg)](https://github.com/ThingPulse/esp8266-oled-ssd1306/actions)
 
+# Cutdown version - Why Modified
+This is a very cutdown version of the excellent ThingPulse library for a project I was working on with very limited programming space left.
+
+It will compile and work now on a Leonardo or Arduino UNO now as well as the larger ESP etc.
+
+Please see the original project (mentioned in this readme) for examples, updates and communications other than I2C.
+
+Items removed are examples, fonts, sample images and communications other than I2C (SCL,SDA connections).
+
+To use - dont install as library - just add the 3 files (OLEDisplay.cpp, OLEDisplay.h, SDD1306Wire.h) to the same folder as the .ino.
+
+See sample MainSimpleDemo.ino
+
+Ambrose 2023
+
+
 # ThingPulse OLED SSD1306 (ESP8266/ESP32/Mbed-OS)
 
 This is a driver for SSD1306 128x64, 128x32, 64x48 and 64x32 OLED displays running on the Arduino/ESP8266 & ESP32 and mbed-os platforms.
